@@ -27,6 +27,12 @@
     <ClInclude Include="Calculator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\intel\omp_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\intel\omp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -38,5 +44,12 @@
     <ClCompile Include="Calculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\intel\libiomp5md.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\intel\libiomp5md.pdb" />
+    <None Include="..\intel\libiomp5md_db.dll" />
   </ItemGroup>
 </Project>
