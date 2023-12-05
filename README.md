@@ -6,6 +6,8 @@ It is a windows x64 DLL built by [Intel Fortran compiler](https://www.intel.com/
 
 It is possible to run it in Docker :
 
+open the directory _\K2FemMklLoader_ and run docker CLI commads
+
 ```
 docker build -f Dockerfile -t k2femmkl-nanoserver .
 docker run -i -t k2femmkl-nanoserver
