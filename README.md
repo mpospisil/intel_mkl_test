@@ -17,3 +17,5 @@ it is possible to switch between Nano Server Container and Windows Core Containe
 FROM mpospisil/dotnet-runtime-windowsdesktop:6.0.18-nanoserver-ltsc2022 AS base
 #FROM mpospisil/dotnet-runtime-windowsdesktop:6.0.18-windowsservercore-ltsc2022 AS base
 ```
+
+see [Dockerfile](K2FemMklLoader/Dockerfile)
