@@ -396,3 +396,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+K2FemMklLoader/K2FemMklLoader/k2femmkl64.dll
+K2FemMklLoader/K2FemMklLoader/libiomp5md.dll
