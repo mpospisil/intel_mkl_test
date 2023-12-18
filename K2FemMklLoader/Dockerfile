@@ -24,5 +24,5 @@ FROM base AS final
 WORKDIR /app
 COPY --from=build /src .
 
-#ENTRYPOINT ["cmd"]
-ENTRYPOINT ["K2FemMklLoader.exe"]
+ENTRYPOINT ["cmd"]
+#ENTRYPOINT ["K2FemMklLoader.exe"]

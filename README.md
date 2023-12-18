@@ -21,3 +21,7 @@ FROM mpospisil/dotnet-runtime-windowsdesktop:6.0.18-nanoserver-ltsc2022 AS base
 ```
 
 see [Dockerfile](K2FemMklLoader/Dockerfile)
+
+It is not possible to run K2FemMklLoader in Windows Nanoserver Container - see this discussion
+https://github.com/microsoft/Windows-Containers/issues/448
+

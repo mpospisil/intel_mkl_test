@@ -1,0 +1,5 @@
+docker run -i -t --isolation=process --volume c:\git\HiltiProfis\container-shared:c:\local k2femmkl-nanoserver
+
+c:\local\dbg\gflags.exe /i K2FemMklLoader.exe +sls 
+
+c:\local\dbg\cdb.exe c:\app\K2FemMklLoader.exe
