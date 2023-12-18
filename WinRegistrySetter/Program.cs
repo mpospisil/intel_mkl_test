@@ -15,3 +15,18 @@ var val2 = Registry.GetValue(keyName, valueName, null);
 
 Console.WriteLine("After modification of registry");
 Console.WriteLine($"{keyName} {valueName} = {val2}");
+
+string keyNameg = "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Session Manager";
+string valueNameg = "GlobalFlag";
+int valueDatag = 2;
+
+var val3 = Registry.GetValue(keyNameg, valueNameg, null);
+Console.WriteLine("Before modification of registry");
+Console.WriteLine($"{keyNameg} {valueNameg} = {val3}");
+
+Registry.SetValue(keyNameg, valueNameg, valueDatag);
+
+var val4 = Registry.GetValue(keyNameg, valueNameg, null);
+
+Console.WriteLine("After modification of registry");
+Console.WriteLine($"{keyNameg} {valueNameg} = {val4}");
