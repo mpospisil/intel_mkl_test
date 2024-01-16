@@ -4,7 +4,7 @@
 #For more information, please see https://aka.ms/containercompat
 
 #FROM mcr.microsoft.com/dotnet/runtime:6.0 AS base
-FROM mpospisil/dotnet-runtime-windowsdesktop:6.0.18-nanoserver-ltsc2022 AS base
+FROM mpospisil/dotnet-runtime-windowsdesktop:6.0.18-nanoserver-kernel32-ltsc2022 AS base
 #FROM mpospisil/dotnet-runtime-windowsdesktop:6.0.18-windowsservercore-ltsc2022 AS base
 
 WORKDIR /app
